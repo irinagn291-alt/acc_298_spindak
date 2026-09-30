@@ -1,0 +1,27 @@
+The app never asks for camera, photos, microphone, location, or tracking. No permission prompts appear. There are no usage-description strings. There is no login or accounts, no in-app purchase, no user-generated content (no posting or profiles; you only save museum works and local word marks), no account deletion flow, and no App Tracking Transparency prompt.
+
+Spindak is a word-stacking exercise for people who want to rebuild a painting's title or the painter's name from loose stones. You save works from the Victoria and Albert Museum onto this device, scatter those words onto a heap, and tap them in reading order on the shaft. Home is that ruined column, not a museum walk.
+
+No credentials or demo account are needed. Cold launch shows a short pause with no words, then a full-screen splash picture with no words. Light appearance only. First launch: three onboarding pages marked "Page 1 of 3", "Page 2 of 3", or "Page 3 of 3". Page 1: headline "Save a painting." line "Keep Victoria and Albert Museum files on this device. Home is the ruined column, not a museum walk." "Skip" and "Next". Page 2: headline "Scatter the drums." line "Scatter splits maker or title into stones. Only the order is wrong. Extras stay out." "Skip" and "Next". Page 3: headline "Stack in order." line "The next true drum seats. A miss stays on the heap. Undo peels the newest mark." "Continue" only. "Skip" and "Continue" open the shaft. Later cold launches open the shaft.
+
+There is no tab bar. Explore, Saved, Settings, and Scatter then stack open over the shaft. Top icons: "Explore" opens Save a painting; "Saved" opens Saved paintings; "Open another painting" opens Scatter then stack; "Settings" opens Progress.
+
+Empty crate: "Crate empty." "Save a painting, then stack." Tap "Explore". On Save a painting use "Search a painting" or leave it empty for the crate shelf. Tap "Save" on "Salisbury Cathedral from the Close" by "John Constable". Expect "Saved as loose spoil." Close returns to the shaft.
+
+On the shaft tap "Open a painting". If it is dimmed, save a work with at least two words in the title or the painter's name. Heap headline is "Name this painting" or "Name the painter". Tap stones in "Words" in reading order. A miss shows "That drum stays on the heap." Finish until "You named it." Then use "Open another" or the "Named paintings" rail.
+
+"Saved" stays on "Nothing rebuilt yet." until you name or miss a word. Then Rebuilt, Named, and Missed rows open pages titled "Rebuilt", "Clamp", or "Spall".
+
+Scatter then stack: "Scatter" when no job is open; "Back to the shaft" when a job is open. A second scatter while words remain can show "Finish this shaft first."
+
+Progress: until the first save, "Museum credit and Undo live here once you save a painting." Source has "Victoria and Albert Museum", "Paintings stay on this device. Search uses the museum collection.", "Museum site", and "Open data". Score has "Named", "Missed", and "Undo". Contact has "Write to us". Reset has "Replay the first pages" and "Erase saved paintings" (confirm "Named paintings and word marks leave this device." with "Erase saved paintings" or "Keep paintings").
+
+Paintings, named and missed marks, and shaft progress stay on this device. Search uses the museum collection and needs a network for live results. The crate shelf and already-saved works do not. On-screen support is "Write to us" under "Contact" on Progress. It opens the support page.
+
+English copy only. No in-app region or country switch. Counts use the device locale. Dates look like "2026.09.30".
+
+No licence or regulated-industry paperwork applies. This is an Education word-stacking exercise, not a regulated service.
+
+The app does not show health, medical, or product-health information. It is a personal log only and gives no recommendations.
+
+The app does not scan barcodes or QR codes.

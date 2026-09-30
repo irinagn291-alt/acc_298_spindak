@@ -1,0 +1,20 @@
+Spindak is a word-stacking exercise for people who want to rebuild a painting's title or the painter's name from loose stones. You save works from the Victoria and Albert Museum onto this device, scatter those words onto a heap, and tap them in reading order on the shaft.
+
+• Save a painting from the Victoria and Albert Museum into the crate
+• Search a painting in that museum collection
+• A crate shelf of museum works when search is empty or cannot reach the museum
+• Scatter the drums: one loose painting, maker or title split into stones, only the order is wrong, extras stay out
+• Stack in order: tap the next true drum; a miss stays on the heap
+• Name this painting or Name the painter
+• Named and missed word marks
+• Undo peels the newest mark
+• Rebuilt paintings on Saved paintings
+• Named paintings rail on the shaft after works are finished
+• Progress counts for Named and Missed
+• Replay the first pages
+• Erase saved paintings
+• Write to us
+• Museum site and Open data
+• Shortcuts phrases: Open Quiz in Spindak, Stack the drum in Spindak, Open Explore in Spindak, Open Saved in Spindak, Open Settings in Spindak, Stack a drum in Spindak, Scatter then stack in Spindak
+
+Home is the ruined column, not a museum walk. Paintings, named and missed marks, and shaft progress stay on this device.

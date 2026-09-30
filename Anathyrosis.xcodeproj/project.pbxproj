@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AC0FE8B4FA8B5EC7CF5A54 /* WastePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED7D96C5020B5765173C606 /* WastePage.swift */; };
+		0B1ED67CB7788F54C9319665 /* Daykey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DED56FDFCB8284EAE145D /* Daykey.swift */; };
+		0D1009C9738C52043B425076 /* ShaftJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73B72CDB585790FF812780 /* ShaftJob.swift */; };
+		190EF7E6E410AD1C2D425A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401B551934412D80FBEDE09C /* Assets.xcassets */; };
+		1DF40795DE9FF37F1F312480 /* ShaftStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A4F2E97E50DA330D9B2925 /* ShaftStore.swift */; };
+		216AE12997C0E1455AAAE193 /* ShaftSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866FBAB3A244C23F889D122 /* ShaftSeed.swift */; };
+		290BB1447A960095E21F6FDE /* ShaftLinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4A299630733F4CE8864BE /* ShaftLinksTests.swift */; };
+		2F9EA8D148709B62756978D2 /* CatalogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0252C02A90D92D9EDE422B3 /* CatalogClient.swift */; };
+		363C22073A59AF84E06BF534 /* Shaft.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5146521F7BA21E99DBD5A2 /* Shaft.swift */; };
+		3802A95AE03557F6F17DD7E6 /* ShaftMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AE40A9241AD2C187143DD /* ShaftMotion.swift */; };
+		3C703A9BE2468B90FF53C59B /* ShaftVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC29A0D7F9CBD1F452D8A31 /* ShaftVault.swift */; };
+		3F81C5A074E89B3AAF7A9D33 /* ShaftChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50816ADDC8A78249A64C46 /* ShaftChrome.swift */; };
+		4000608853E17D8F901AF5FE /* ScatterStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC984C97B68A48EF67273C9 /* ScatterStackView.swift */; };
+		41243CFFD7B04B999EEE468F /* ShaftDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83815444AEDBA9E84381D982 /* ShaftDocument.swift */; };
+		4315CCD317DE2B887B549840 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149C6096BD8DF53A2785FDD2 /* QuizView.swift */; };
+		4BC7A90B6B72F46301869D09 /* AnathyrosisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784152179D02450A3983130 /* AnathyrosisTests.swift */; };
+		4E5BAFE7353BABC24467B4E1 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AFC5C80B46D415695D1083 /* Piece.swift */; };
+		525572A1251766C9419336D2 /* QuizHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23C7AA28CB95F1693FDCAC /* QuizHero.swift */; };
+		53B05E29CE7FBD68B1D416BE /* ClampStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2834AD8758C7DEFD00EBF5 /* ClampStat.swift */; };
+		570FD741FB0E1F0EA0379257 /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146ECAD43E9126EC70E19209 /* FamilyInvariantTests.swift */; };
+		5A44582B6B9212A1F3766B73 /* ShaftLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85117AD78CAE96B69A457F45 /* ShaftLinks.swift */; };
+		5DB8C973DD201F2E75EBEC1F /* DrumHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F9D0B80AEFBC4D19DE76F2 /* DrumHeap.swift */; };
+		5F368FD3F8C5823136BB86AE /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609CF00B96F339E79904BDD /* SavedView.swift */; };
+		629C2600154D6942319D4488 /* Anastylosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBFFC7335C0F6DD16FFC85 /* Anastylosis.swift */; };
+		755C329D6AC157BEEC167710 /* SpallMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CBDC80BDC200C24FC5A956 /* SpallMark.swift */; };
+		7C89F9847CA3EB274DE0B9D7 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C4404275B1AB250F0AEEE /* APIConfig.swift */; };
+		7EC0D69463814072916F2067 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF9CCFCEEA5ADA9B60B0F /* ExploreView.swift */; };
+		85308BC39843AA5F78978944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66981D4DE7BB809F576DC91D /* ContentView.swift */; };
+		86732C41D7C37B4D19FCE685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6E77E143834DAA0D755D39 /* AppDelegate.swift */; };
+		8A553963F8CD27F46F21E925 /* ShaftIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9668F057DD2269BB9D51292F /* ShaftIntents.swift */; };
+		92E5FD646AFC827328DEBBE1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671B49FB6FEC2C2A4561A9D2 /* OnboardingView.swift */; };
+		9D40C40EAF0CF2A1FCFA385F /* Spoil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C37A0FACAF88C9AD555A30F /* Spoil.swift */; };
+		A13DD6FB4218CD1260482A66 /* ShaftStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC14E7C1C02B963BACE1BB /* ShaftStoreTests.swift */; };
+		A1EDDE633AB822670B0E19EE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BCE7551CA6B097BA23E1A65B /* Alamofire */; };
+		A55A3B936130A73DE05DD3FA /* AnathyrosisGMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CF2D432EF906BF5002F18 /* AnathyrosisGMT.swift */; };
+		A565480B907CD2AED89D9D21 /* CrateShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D98B0CEF73FD207869D30 /* CrateShelf.swift */; };
+		A623E7633BD7A21DE3284273 /* ShaftJobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45575DF64F13C09C871E1F05 /* ShaftJobTests.swift */; };
+		ACFD84F61CD3A6AF68F7AC00 /* PiecePlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C850ADE080C21FFEE0C628 /* PiecePlate.swift */; };
+		ADF02BE262432FFA98921D5B /* CatalogClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB1D3B79913E226560A6DE /* CatalogClientTests.swift */; };
+		C8048620C4201B0FF1D52C83 /* Drum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D978F28BFA22BDB6545D6D /* Drum.swift */; };
+		CF2AAF09C58BC1CE1ADA1B06 /* ClampMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBD9D3BE038E3147FD70B6 /* ClampMark.swift */; };
+		D4229E83AED660A52C0737A7 /* AnathyrosisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3258298A21988A736DCD0E /* AnathyrosisApp.swift */; };
+		D78E2956DA3B72BAEEE3CC13 /* ShaftFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE013916252B954E83CC89D7 /* ShaftFoldTests.swift */; };
+		DEF7F730333812339A0D10C3 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 18C6E3C72607401E1C569B81 /* AppsFlyerLib-Static */; };
+		E1F5A9477FBD56CFA0103095 /* ShaftInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD239A9782B91ECC25E4C31 /* ShaftInk.swift */; };
+		F5072E5EEB4C05EFFCA51B2A /* ShaftPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728BF9DD2FE6113EADD0734B /* ShaftPress.swift */; };
+		F7E32A0E5E07AA84F754DE13 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA537DE339942A17DDFE0FCF /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE529C8133A21E9CEBE3809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4335C78E5D37C54EC588AB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F32F355143C4334CB1346C7;
+			remoteInfo = Anathyrosis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09CC14E7C1C02B963BACE1BB /* ShaftStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftStoreTests.swift; sourceTree = "<group>"; };
+		146ECAD43E9126EC70E19209 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		149C6096BD8DF53A2785FDD2 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		1609CF00B96F339E79904BDD /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		18CB1D3B79913E226560A6DE /* CatalogClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClientTests.swift; sourceTree = "<group>"; };
+		1FEF8AEADBB2C089DCD61174 /* Anathyrosis.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Anathyrosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F9D0B80AEFBC4D19DE76F2 /* DrumHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumHeap.swift; sourceTree = "<group>"; };
+		3B73B72CDB585790FF812780 /* ShaftJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftJob.swift; sourceTree = "<group>"; };
+		3C37A0FACAF88C9AD555A30F /* Spoil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spoil.swift; sourceTree = "<group>"; };
+		401B551934412D80FBEDE09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45575DF64F13C09C871E1F05 /* ShaftJobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftJobTests.swift; sourceTree = "<group>"; };
+		4DD239A9782B91ECC25E4C31 /* ShaftInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftInk.swift; sourceTree = "<group>"; };
+		51C850ADE080C21FFEE0C628 /* PiecePlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiecePlate.swift; sourceTree = "<group>"; };
+		6596F6855E58411C91CD61E4 /* AnathyrosisTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AnathyrosisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66981D4DE7BB809F576DC91D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		671B49FB6FEC2C2A4561A9D2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		6866FBAB3A244C23F889D122 /* ShaftSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftSeed.swift; sourceTree = "<group>"; };
+		728BF9DD2FE6113EADD0734B /* ShaftPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftPress.swift; sourceTree = "<group>"; };
+		7784152179D02450A3983130 /* AnathyrosisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnathyrosisTests.swift; sourceTree = "<group>"; };
+		7C50816ADDC8A78249A64C46 /* ShaftChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftChrome.swift; sourceTree = "<group>"; };
+		7DC29A0D7F9CBD1F452D8A31 /* ShaftVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftVault.swift; sourceTree = "<group>"; };
+		7E3AE40A9241AD2C187143DD /* ShaftMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftMotion.swift; sourceTree = "<group>"; };
+		7ED7D96C5020B5765173C606 /* WastePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastePage.swift; sourceTree = "<group>"; };
+		83815444AEDBA9E84381D982 /* ShaftDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftDocument.swift; sourceTree = "<group>"; };
+		85117AD78CAE96B69A457F45 /* ShaftLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftLinks.swift; sourceTree = "<group>"; };
+		8B8DED56FDFCB8284EAE145D /* Daykey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daykey.swift; sourceTree = "<group>"; };
+		8D3258298A21988A736DCD0E /* AnathyrosisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnathyrosisApp.swift; sourceTree = "<group>"; };
+		962CF2D432EF906BF5002F18 /* AnathyrosisGMT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnathyrosisGMT.swift; sourceTree = "<group>"; };
+		9668F057DD2269BB9D51292F /* ShaftIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftIntents.swift; sourceTree = "<group>"; };
+		9EC984C97B68A48EF67273C9 /* ScatterStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterStackView.swift; sourceTree = "<group>"; };
+		9FDBD9D3BE038E3147FD70B6 /* ClampMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClampMark.swift; sourceTree = "<group>"; };
+		BB6E77E143834DAA0D755D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBCBFFC7335C0F6DD16FFC85 /* Anastylosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anastylosis.swift; sourceTree = "<group>"; };
+		BC5146521F7BA21E99DBD5A2 /* Shaft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shaft.swift; sourceTree = "<group>"; };
+		BD2834AD8758C7DEFD00EBF5 /* ClampStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClampStat.swift; sourceTree = "<group>"; };
+		C0CBDC80BDC200C24FC5A956 /* SpallMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpallMark.swift; sourceTree = "<group>"; };
+		C55D98B0CEF73FD207869D30 /* CrateShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrateShelf.swift; sourceTree = "<group>"; };
+		C5A4F2E97E50DA330D9B2925 /* ShaftStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftStore.swift; sourceTree = "<group>"; };
+		CB7C4404275B1AB250F0AEEE /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		CE9BF9CCFCEEA5ADA9B60B0F /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		CEA4A299630733F4CE8864BE /* ShaftLinksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftLinksTests.swift; sourceTree = "<group>"; };
+		D0252C02A90D92D9EDE422B3 /* CatalogClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClient.swift; sourceTree = "<group>"; };
+		D0D978F28BFA22BDB6545D6D /* Drum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drum.swift; sourceTree = "<group>"; };
+		DE013916252B954E83CC89D7 /* ShaftFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaftFoldTests.swift; sourceTree = "<group>"; };
+		E8AFC5C80B46D415695D1083 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		FA537DE339942A17DDFE0FCF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FF23C7AA28CB95F1693FDCAC /* QuizHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHero.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5971EEF8FA5F035FD5F8BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EDDE633AB822670B0E19EE /* Alamofire in Frameworks */,
+				DEF7F730333812339A0D10C3 /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038C051EC9C4C47BDC074157 /* Anathyrosis */ = {
+			isa = PBXGroup;
+			children = (
+				8D3258298A21988A736DCD0E /* AnathyrosisApp.swift */,
+				CB7C4404275B1AB250F0AEEE /* APIConfig.swift */,
+				BB6E77E143834DAA0D755D39 /* AppDelegate.swift */,
+				401B551934412D80FBEDE09C /* Assets.xcassets */,
+				66981D4DE7BB809F576DC91D /* ContentView.swift */,
+				63C35FC731ED863B79A7E1AD /* ClampMark */,
+				9B8F9E213852AA06C319A92B /* Drum */,
+				81033C61DDE030FDB9004ABC /* Piece */,
+				E64F8487360A4531B5424129 /* Shaft */,
+				E7C5A895C443B4C2B53A89B1 /* SpallMark */,
+				86E04F4AF8F5B53ECE44FC87 /* Spoil */,
+			);
+			path = Anathyrosis;
+			sourceTree = "<group>";
+		};
+		58A414B57F52BE30417B5E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF8AEADBB2C089DCD61174 /* Anathyrosis.app */,
+				6596F6855E58411C91CD61E4 /* AnathyrosisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C35FC731ED863B79A7E1AD /* ClampMark */ = {
+			isa = PBXGroup;
+			children = (
+				9FDBD9D3BE038E3147FD70B6 /* ClampMark.swift */,
+				BD2834AD8758C7DEFD00EBF5 /* ClampStat.swift */,
+			);
+			path = ClampMark;
+			sourceTree = "<group>";
+		};
+		81033C61DDE030FDB9004ABC /* Piece */ = {
+			isa = PBXGroup;
+			children = (
+				D0252C02A90D92D9EDE422B3 /* CatalogClient.swift */,
+				C55D98B0CEF73FD207869D30 /* CrateShelf.swift */,
+				CE9BF9CCFCEEA5ADA9B60B0F /* ExploreView.swift */,
+				E8AFC5C80B46D415695D1083 /* Piece.swift */,
+				51C850ADE080C21FFEE0C628 /* PiecePlate.swift */,
+				1609CF00B96F339E79904BDD /* SavedView.swift */,
+			);
+			path = Piece;
+			sourceTree = "<group>";
+		};
+		81A8AB56B76A45B9869703A4 /* AnathyrosisTests */ = {
+			isa = PBXGroup;
+			children = (
+				962CF2D432EF906BF5002F18 /* AnathyrosisGMT.swift */,
+				7784152179D02450A3983130 /* AnathyrosisTests.swift */,
+				18CB1D3B79913E226560A6DE /* CatalogClientTests.swift */,
+				146ECAD43E9126EC70E19209 /* FamilyInvariantTests.swift */,
+				DE013916252B954E83CC89D7 /* ShaftFoldTests.swift */,
+				45575DF64F13C09C871E1F05 /* ShaftJobTests.swift */,
+				CEA4A299630733F4CE8864BE /* ShaftLinksTests.swift */,
+				09CC14E7C1C02B963BACE1BB /* ShaftStoreTests.swift */,
+			);
+			path = AnathyrosisTests;
+			sourceTree = "<group>";
+		};
+		86E04F4AF8F5B53ECE44FC87 /* Spoil */ = {
+			isa = PBXGroup;
+			children = (
+				9EC984C97B68A48EF67273C9 /* ScatterStackView.swift */,
+				3C37A0FACAF88C9AD555A30F /* Spoil.swift */,
+			);
+			path = Spoil;
+			sourceTree = "<group>";
+		};
+		9B8F9E213852AA06C319A92B /* Drum */ = {
+			isa = PBXGroup;
+			children = (
+				D0D978F28BFA22BDB6545D6D /* Drum.swift */,
+				32F9D0B80AEFBC4D19DE76F2 /* DrumHeap.swift */,
+			);
+			path = Drum;
+			sourceTree = "<group>";
+		};
+		E64F8487360A4531B5424129 /* Shaft */ = {
+			isa = PBXGroup;
+			children = (
+				BBCBFFC7335C0F6DD16FFC85 /* Anastylosis.swift */,
+				8B8DED56FDFCB8284EAE145D /* Daykey.swift */,
+				671B49FB6FEC2C2A4561A9D2 /* OnboardingView.swift */,
+				FF23C7AA28CB95F1693FDCAC /* QuizHero.swift */,
+				149C6096BD8DF53A2785FDD2 /* QuizView.swift */,
+				FA537DE339942A17DDFE0FCF /* SettingsView.swift */,
+				BC5146521F7BA21E99DBD5A2 /* Shaft.swift */,
+				7C50816ADDC8A78249A64C46 /* ShaftChrome.swift */,
+				83815444AEDBA9E84381D982 /* ShaftDocument.swift */,
+				4DD239A9782B91ECC25E4C31 /* ShaftInk.swift */,
+				9668F057DD2269BB9D51292F /* ShaftIntents.swift */,
+				3B73B72CDB585790FF812780 /* ShaftJob.swift */,
+				85117AD78CAE96B69A457F45 /* ShaftLinks.swift */,
+				7E3AE40A9241AD2C187143DD /* ShaftMotion.swift */,
+				728BF9DD2FE6113EADD0734B /* ShaftPress.swift */,
+				6866FBAB3A244C23F889D122 /* ShaftSeed.swift */,
+				C5A4F2E97E50DA330D9B2925 /* ShaftStore.swift */,
+				7DC29A0D7F9CBD1F452D8A31 /* ShaftVault.swift */,
+				7ED7D96C5020B5765173C606 /* WastePage.swift */,
+			);
+			path = Shaft;
+			sourceTree = "<group>";
+		};
+		E7C5A895C443B4C2B53A89B1 /* SpallMark */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBDC80BDC200C24FC5A956 /* SpallMark.swift */,
+			);
+			path = SpallMark;
+			sourceTree = "<group>";
+		};
+		EA9DCBBF40FA24DA74DE7173 = {
+			isa = PBXGroup;
+			children = (
+				038C051EC9C4C47BDC074157 /* Anathyrosis */,
+				81A8AB56B76A45B9869703A4 /* AnathyrosisTests */,
+				58A414B57F52BE30417B5E4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F32F355143C4334CB1346C7 /* Anathyrosis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FE7FFD2DA1A4D68289A1FA /* Build configuration list for PBXNativeTarget "Anathyrosis" */;
+			buildPhases = (
+				58D7A2C96015B976E57CF993 /* Sources */,
+				3589C71C882550A8E31CC1A3 /* Resources */,
+				3D5971EEF8FA5F035FD5F8BF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anathyrosis;
+			packageProductDependencies = (
+				BCE7551CA6B097BA23E1A65B /* Alamofire */,
+				18C6E3C72607401E1C569B81 /* AppsFlyerLib-Static */,
+			);
+			productName = Anathyrosis;
+			productReference = 1FEF8AEADBB2C089DCD61174 /* Anathyrosis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC834DF631A4893DD53C7A6A /* AnathyrosisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52B363CBED050B6DAD27E70 /* Build configuration list for PBXNativeTarget "AnathyrosisTests" */;
+			buildPhases = (
+				ADA585E4020A5A52B030A440 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D7D16821E177311AC19543 /* PBXTargetDependency */,
+			);
+			name = AnathyrosisTests;
+			packageProductDependencies = (
+			);
+			productName = AnathyrosisTests;
+			productReference = 6596F6855E58411C91CD61E4 /* AnathyrosisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4335C78E5D37C54EC588AB96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3F32F355143C4334CB1346C7 = {
+						ProvisioningStyle = Automatic;
+					};
+					FC834DF631A4893DD53C7A6A = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 13ABCF1C4BEBAF81060A048B /* Build configuration list for PBXProject "Anathyrosis" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EA9DCBBF40FA24DA74DE7173;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				648911B42628C0C4E91BA6E0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2C8495130EEA2D2AFA4BC7E7 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 58A414B57F52BE30417B5E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F32F355143C4334CB1346C7 /* Anathyrosis */,
+				FC834DF631A4893DD53C7A6A /* AnathyrosisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3589C71C882550A8E31CC1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190EF7E6E410AD1C2D425A5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58D7A2C96015B976E57CF993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C89F9847CA3EB274DE0B9D7 /* APIConfig.swift in Sources */,
+				629C2600154D6942319D4488 /* Anastylosis.swift in Sources */,
+				D4229E83AED660A52C0737A7 /* AnathyrosisApp.swift in Sources */,
+				86732C41D7C37B4D19FCE685 /* AppDelegate.swift in Sources */,
+				2F9EA8D148709B62756978D2 /* CatalogClient.swift in Sources */,
+				CF2AAF09C58BC1CE1ADA1B06 /* ClampMark.swift in Sources */,
+				53B05E29CE7FBD68B1D416BE /* ClampStat.swift in Sources */,
+				85308BC39843AA5F78978944 /* ContentView.swift in Sources */,
+				A565480B907CD2AED89D9D21 /* CrateShelf.swift in Sources */,
+				0B1ED67CB7788F54C9319665 /* Daykey.swift in Sources */,
+				C8048620C4201B0FF1D52C83 /* Drum.swift in Sources */,
+				5DB8C973DD201F2E75EBEC1F /* DrumHeap.swift in Sources */,
+				7EC0D69463814072916F2067 /* ExploreView.swift in Sources */,
+				92E5FD646AFC827328DEBBE1 /* OnboardingView.swift in Sources */,
+				4E5BAFE7353BABC24467B4E1 /* Piece.swift in Sources */,
+				ACFD84F61CD3A6AF68F7AC00 /* PiecePlate.swift in Sources */,
+				525572A1251766C9419336D2 /* QuizHero.swift in Sources */,
+				4315CCD317DE2B887B549840 /* QuizView.swift in Sources */,
+				5F368FD3F8C5823136BB86AE /* SavedView.swift in Sources */,
+				4000608853E17D8F901AF5FE /* ScatterStackView.swift in Sources */,
+				F7E32A0E5E07AA84F754DE13 /* SettingsView.swift in Sources */,
+				363C22073A59AF84E06BF534 /* Shaft.swift in Sources */,
+				3F81C5A074E89B3AAF7A9D33 /* ShaftChrome.swift in Sources */,
+				41243CFFD7B04B999EEE468F /* ShaftDocument.swift in Sources */,
+				E1F5A9477FBD56CFA0103095 /* ShaftInk.swift in Sources */,
+				8A553963F8CD27F46F21E925 /* ShaftIntents.swift in Sources */,
+				0D1009C9738C52043B425076 /* ShaftJob.swift in Sources */,
+				5A44582B6B9212A1F3766B73 /* ShaftLinks.swift in Sources */,
+				3802A95AE03557F6F17DD7E6 /* ShaftMotion.swift in Sources */,
+				F5072E5EEB4C05EFFCA51B2A /* ShaftPress.swift in Sources */,
+				216AE12997C0E1455AAAE193 /* ShaftSeed.swift in Sources */,
+				1DF40795DE9FF37F1F312480 /* ShaftStore.swift in Sources */,
+				3C703A9BE2468B90FF53C59B /* ShaftVault.swift in Sources */,
+				755C329D6AC157BEEC167710 /* SpallMark.swift in Sources */,
+				9D40C40EAF0CF2A1FCFA385F /* Spoil.swift in Sources */,
+				03AC0FE8B4FA8B5EC7CF5A54 /* WastePage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA585E4020A5A52B030A440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55A3B936130A73DE05DD3FA /* AnathyrosisGMT.swift in Sources */,
+				4BC7A90B6B72F46301869D09 /* AnathyrosisTests.swift in Sources */,
+				ADF02BE262432FFA98921D5B /* CatalogClientTests.swift in Sources */,
+				570FD741FB0E1F0EA0379257 /* FamilyInvariantTests.swift in Sources */,
+				D78E2956DA3B72BAEEE3CC13 /* ShaftFoldTests.swift in Sources */,
+				A623E7633BD7A21DE3284273 /* ShaftJobTests.swift in Sources */,
+				290BB1447A960095E21F6FDE /* ShaftLinksTests.swift in Sources */,
+				A13DD6FB4218CD1260482A66 /* ShaftStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2D7D16821E177311AC19543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F32F355143C4334CB1346C7 /* Anathyrosis */;
+			targetProxy = FAE529C8133A21E9CEBE3809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EA54EBE7773F51E0DA4D668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		7741A68A99293364985A48B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		8F7F70B62092B1F8E6FDE973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anathyrosis.shaft.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anathyrosis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anathyrosis";
+			};
+			name = Debug;
+		};
+		99F57D994A05914FB100D59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Anathyrosis-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Spindak;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anathyrosis.shaft;
+				PRODUCT_NAME = Anathyrosis;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2D83BF876AF46DB8F26FA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Anathyrosis-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Spindak;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anathyrosis.shaft;
+				PRODUCT_NAME = Anathyrosis;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5F109B948E7E4CE51991838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anathyrosis.shaft.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anathyrosis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anathyrosis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13ABCF1C4BEBAF81060A048B /* Build configuration list for PBXProject "Anathyrosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7741A68A99293364985A48B5 /* Debug */,
+				0EA54EBE7773F51E0DA4D668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96FE7FFD2DA1A4D68289A1FA /* Build configuration list for PBXNativeTarget "Anathyrosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F57D994A05914FB100D59D /* Debug */,
+				F2D83BF876AF46DB8F26FA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D52B363CBED050B6DAD27E70 /* Build configuration list for PBXNativeTarget "AnathyrosisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7F70B62092B1F8E6FDE973 /* Debug */,
+				F5F109B948E7E4CE51991838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C8495130EEA2D2AFA4BC7E7 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.9;
+			};
+		};
+		648911B42628C0C4E91BA6E0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/srfcsthpvf-prog/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 43bf208138a03e76cfc537d000760282c7a4b8e4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18C6E3C72607401E1C569B81 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C8495130EEA2D2AFA4BC7E7 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		BCE7551CA6B097BA23E1A65B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 648911B42628C0C4E91BA6E0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4335C78E5D37C54EC588AB96 /* Project object */;
+}
